@@ -52,6 +52,30 @@ export default function Hero() {
                         View Our Work
                     </Link>
                 </div>
+
+                {/* Statistics Cards */}
+                <div className="mt-24 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                    {[
+                        { value: "100+", label: "Projects Delivered" },
+                        { value: "98%", label: "Client Satisfaction" },
+                        { value: "10+", label: "Expert Team" },
+                        { value: "1+", label: "Years Experience" },
+                    ].map((stat)=> (
+                        <div 
+                           key={stat.label}
+                           className="rounded-2xl border border-blue-100 bg-white/85 px-9 py-8 text-left shadow-md transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+                        >
+                            <h2 className="text-4xl font-extrabold text-blue-600 sm:text-5xl">
+                               {stat.value}
+                            </h2>
+
+                            <p className="mt-4 text-lg font-medium text-gray-600">
+                               {stat.label}
+                            </p>
+                        </div>
+                    ))}
+               </div>
+
             </div>
         </section>
     )
