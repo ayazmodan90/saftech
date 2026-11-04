@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 export default function Home(){
   return (
@@ -6,16 +7,7 @@ export default function Home(){
         <Navbar />
 
       <main>
-        <section
-          id="home"
-          className="flex min-h-[70vh] items-center justify-center bg-gray-100"
-          >
-            <h1 className="text-4xl font-bold text-gray-900"
-            >
-              SAF TECH Website
-            </h1>
-
-        </section>
+        <Hero />
       </main>
     </>
 
