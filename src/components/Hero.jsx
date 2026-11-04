@@ -35,6 +35,23 @@ export default function Hero() {
                      enterprises, and businesses worldwide. Our expertise drives
                      innovation and growth.
                 </p>
+
+                <div className="mt-14 flex flex-col items-center justify-center gap-5 sm:flex-row">
+                    <Link
+                       href="#contact"
+                       className="inline-flex min-w-[220px] items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-700 px-8 py-5 text-xl font-semibold text-white shadow-lg shadow-blue-500/20 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                       >
+                        Get Started
+                         <ArrowRight size={20} />
+                    </Link>
+
+                     <Link
+                        href="#portfolio"
+                        className="inline-flex min-w-[258px] items-center justify-center rounded-xl border border-blue-200 bg-white px-8 py-5 text-xl font-medium text-blue-600 shadow-md transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg"
+                    >
+                        View Our Work
+                    </Link>
+                </div>
             </div>
         </section>
     )
