@@ -82,6 +82,32 @@ export default function about(){
                             </div>
                         </div>
                     </div>
+
+                    {/* RIGHT side */}
+
+                    <div className="relative mx-auto w-full max-w-2xl py-16">
+                        {/* Main Graphic */}
+                        <div className="relative mx-5 flex min-h-[360px] flex-col items-center justify-center overflow-hidden rounded-[30px] bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 p-10 text-center shadow-2xl sm:mx-12">
+                            <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-white/10 blur-2xl" />
+
+                            <div className="relative mb-8 flex h-28 w-28 items-center justify-center rounded-full bg-white/20 text-white">
+                                <Globe2 size={55} />
+                            </div>
+
+                            <h3 className="relative text-3xl font-bold text-white sm:text-4xl">
+                                Our Global Team
+                            </h3>
+
+                            <p className="relative mt-5 max-w-sm text-lg leading-8 text-blue-50">
+                                A diverse team of experts working together
+                                to deliver exceptional solutions.
+                            </p>
+                        </div>
+
+                        
+                    </div>
+
+
                 </div>
             </div>
 
