@@ -48,9 +48,42 @@ export default function about(){
                         </div>
 
                         {/* MISSION and VISION */}
+
+                        <div className="mt-16 grid gap-10 sm:grid-cols-2">
+                            <div className="flex items-start gap-5">
+                                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-blue-700 text-white shadow-lg">
+                                    <Zap size={30} />
+                                </div>
+                                <div>
+                                     <h3 className="text-2xl font-bold text-gray-900">
+                                        Our Mission
+                                    </h3>
+
+                                     <p className="mt-3 leading-7 text-gray-600">
+                                        Empower businesses through innovative technology solutions that solve real-world challenges
+                                     </p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start gap-5">
+                                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-500 to-purple-700 text-white shadow-lg">
+                                     <Eye size={30} />
+                                 </div>
+
+                                 <div>
+                                    <h3 className="text-2xl font-bold text-gray-900">
+                                        Our Vision
+                                    </h3>
+
+                                    <p className="mt-3 leading-7 text-gray-600">
+                                        Become the most trusted technology partner for businesses worldwide
+                                    </p>
+                                 </div>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-             </div>
+                </div>
+            </div>
 
         </section>
     )
