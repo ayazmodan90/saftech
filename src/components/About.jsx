@@ -25,6 +25,29 @@ export default function about(){
                                 About SAF TECH
                             </span>
                         </h2>
+
+                        <div className="mt-12 space-y-8 text-lg leading-[1.9] text-gray-700">
+                            <p>
+                                Founded in 2025, SAF TECH has established itself as a premier software development and IT consulting firm. We specialize in creating innovative digital solutions that drive business transformation and growth.
+                            </p>
+
+                            <p>
+                                Our team of{" "}
+                                <strong className="text-blue-600">
+                                    50+ certified developers
+                                </strong>
+                                , designers, and IT consultants have delivered
+                                over{" "}500 successful projects.
+                                <strong className="text-purple-600">
+                                    100 successful projects
+                                </strong>
+                                 {" "}to clients across 15 countries. We combine
+                                 technical expertise with industry insights to
+                                 deliver measurable results.
+                            </p>
+                        </div>
+
+                        {/* MISSION and VISION */}
                     </div>
                  </div>
              </div>
